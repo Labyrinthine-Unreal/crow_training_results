@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1677699889",
+        "python_version": "3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\peace\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\mlagents-learn config/Walker.yaml --run-id=Walker4",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.0+cpu",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1677699986"
+    },
+    "total": 97.0472537,
+    "count": 1,
+    "self": 0.06798799999999972,
+    "children": {
+        "run_training.setup": {
+            "total": 0.8931324000000007,
+            "count": 1,
+            "self": 0.8931324000000007
+        },
+        "TrainerController.start_learning": {
+            "total": 96.0861333,
+            "count": 1,
+            "self": 0.002648600000000556,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 96.0834373,
+                    "count": 1,
+                    "self": 96.0834373
+                },
+                "trainer_threads": {
+                    "total": 6.40000000373675e-06,
+                    "count": 1,
+                    "self": 6.40000000373675e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 4.0999999995960934e-05,
+                    "count": 1,
+                    "self": 4.0999999995960934e-05
+                }
+            }
+        }
+    }
+}
